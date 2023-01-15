@@ -4,7 +4,7 @@ import { sendRequest, Options, AsyncFunction } from './sendRequest';
 
 async function execute() {
   // pass in here your async request 
-  const request: AsyncFunction = async () => axios.get('https://jsonplaceholder.typicode.com/users');
+  const request: AsyncFunction = async () => axios.get('https://j2sonplaceholder.typicode.com/users');
 
   const options: Options = {
     retries: 50,
